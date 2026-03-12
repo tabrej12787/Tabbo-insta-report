@@ -48,13 +48,13 @@ pkg install git python -y
 3️⃣ Clone repository
 
 ```
-git clone https://github.com/tabrej12787/tabbo-info-tool.git
+git clone https://github.com/tabrej12787/Tabbo-insta-report.git
 ```
 
 4️⃣ Enter project folder
 
 ```
-cd tabbo-info-tool
+cd tabbo-insta-report
 ```
 
 5️⃣ Install Python libraries
