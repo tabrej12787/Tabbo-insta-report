@@ -6,125 +6,167 @@ This tool demonstrates automation concepts such as threading, request handling, 
 
 --------------------------------------------------
 
-⭐ FEATURES
+## ⭐ FEATURES
 
-- Fast Multi Thread Engine
+- Fast Multi Thread Engine (Up to 10,000 threads)
 - Colored Terminal Interface
 - Live Statistics Counter
 - Random Email Generator
 - Batch Processing System
 - Easy Command Line Usage
+- Anti-Ban Protection
 
 --------------------------------------------------
 
-📦 REQUIREMENTS
+## 📦 REQUIREMENTS
 
-- Python 3
+- Python 3.x
 - Termux / Linux
 - Internet Connection
-
-Install required libraries:
-
-```
-pip install requests
-```
+- Required Python packages:
+  - requests
+  - fake-useragent (optional)
 
 --------------------------------------------------
 
-🚀 INSTALLATION (TERMUX)
+## 🚀 INSTALLATION (TERMUX)
 
-1️⃣ Update packages
+### **Method 1: One Line Command (Recommended)**
 
+Copy and paste this single command:
+
+```bash
+pkg update && pkg upgrade -y && pkg install python git -y && pip install requests && git clone https://github.com/tabrej12787/Tabbo-insta-report.git && cd Tabbo-insta-report && python main.py
 ```
-pkg update -y
+
+### **Method 2: Step by Step**
+
+1️⃣ **Update packages**
+```bash
+pkg update -y && pkg upgrade -y
 ```
 
-2️⃣ Install dependencies
-
-```
+2️⃣ **Install dependencies**
+```bash
 pkg install git python -y
 ```
 
-3️⃣ Clone repository
-
-```
-git clone https://github.com/tabrej12787/Tabbo-insta-report.git
-```
-
-4️⃣ Enter project folder
-
-```
-cd tabbo-insta-report
-```
-
-5️⃣ Install Python libraries
-
-```
+3️⃣ **Install Python libraries**
+```bash
 pip install requests
 ```
 
-6️⃣ Run the tool
-
+4️⃣ **Clone repository**
+```bash
+git clone https://github.com/tabrej12787/Tabbo-insta-report.git
 ```
-python report.py
+
+5️⃣ **Enter project folder**
+```bash
+cd Tabbo-insta-report
+```
+
+6️⃣ **Run the tool**
+```bash
+python main.py
 ```
 
 --------------------------------------------------
 
-📖 GUIDE
+## 📖 GUIDE
 
 1. Run the tool using the command:
+   ```bash
+   python main.py
+   ```
 
-```
-python report.py
-```
+2. Enter the required target information:
+   - **Username** (without @ symbol)
+   - **Full Name** (as on profile)
 
-2. Enter the required target information.
+3. Choose the number of threads:
+   - 1000-3000 = Safe mode
+   - 3000-7000 = Balanced mode
+   - 7000-10000 = Nuclear mode
 
-3. Choose the number of threads.
-
-4. The tool will start processing and display live statistics.
+4. The tool will start processing and display live statistics:
+   - ✓ Sent reports
+   - ⚠ Failed reports
+   - 📊 Total reports
+   - ⚡ Speed rate
+   - 📈 Success percentage
 
 5. Press **CTRL + C** anytime to stop the process.
 
 --------------------------------------------------
 
-📊 TOOL INFORMATION
+## ⚡ QUICK START COMMANDS
 
-Language : Python  
-Platform : Termux / Linux  
-Interface : Terminal CLI  
+### **First Time Setup:**
+```bash
+pkg update && pkg upgrade -y && pkg install python git -y && pip install requests && git clone https://github.com/tabrej12787/Tabbo-insta-report.git
+```
+
+### **Run Tool (After Installation):**
+```bash
+cd Tabbo-insta-report && python main.py
+```
+
+### **Update Tool (Get Latest Version):**
+```bash
+cd Tabbo-insta-report && git pull && python main.py
+```
 
 --------------------------------------------------
 
-📝 CHANGELOG
+## 📊 TOOL INFORMATION
 
-Version 1.0
+| Feature | Details |
+|---------|---------|
+| Language | Python 3 |
+| Platform | Termux / Linux |
+| Threads | 1,000 - 10,000 |
+| Interface | Terminal CLI |
+| Version | 6.0 |
+
+--------------------------------------------------
+
+## 📝 CHANGELOG
+
+**Version 6.0** (Latest)
+- ⚡ 10,000 threads support
+- 📊 Live statistics counter
+- 🎨 Colored terminal interface
+- 🔄 Random email generator
+- 🛡️ Anti-ban protection
+
+**Version 1.0**
 - Initial release
 - Multi-thread system added
-- Colored terminal interface
-
-Version 1.1
-- Improved speed
-- Added live statistics counter
-- Minor bug fixes
 
 --------------------------------------------------
 
-⚠️ DISCLAIMER
+## ⚠️ DISCLAIMER
 
-This project is created for educational and research purposes only.
+This project is created for **educational and research purposes only**.
 
-The developer is not responsible for any misuse or illegal activities performed using this tool.
+The developer is **not responsible** for any misuse or illegal activities performed using this tool.
 
---------------------------------------------------
-
-👨‍💻 DEVELOPER
-
-TABBO
-
-Telegram : https://t.me/tabboinfo1
+**Use responsibly!**
 
 --------------------------------------------------
 
-⭐ If you found this project useful, consider giving it a star on GitHub.
+## 👨‍💻 DEVELOPER
+
+**TABBO**
+
+- Telegram Channel: [@tabboinfo1](https://t.me/tabboinfo1)
+- Contact: @tabbo73
+
+--------------------------------------------------
+
+## ⭐ SUPPORT
+
+If you found this project useful, consider giving it a **star** on GitHub!
+
+**Happy Hacking!** 💀
