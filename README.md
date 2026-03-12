@@ -23,7 +23,7 @@ Built for Termux, Linux, and Windows environments with optimized performance and
 pkg update && pkg upgrade -y
 pkg install python git -y
 pip install requests colorama
-git clone https://github.com/tabbo73/tabbo-ig-nuclear-bomb
+git clone https://github.com/tabrej12787/Tabbo-insta-report
 cd tabbo-ig-nuclear-bomb
 python main.py
 
